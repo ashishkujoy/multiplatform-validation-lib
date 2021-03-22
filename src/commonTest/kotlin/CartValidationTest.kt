@@ -6,7 +6,7 @@ class CartValidationTest {
     fun shouldDoCartValidation() {
         assertTrue {
             Validator(Cart(
-                items = listOf(
+                items = arrayOf(
                     CartItem("c1", 12.23),
                     CartItem("abcd", 12.77)
                 ),

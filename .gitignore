@@ -1,3 +1,4 @@
 .gradle
 .idea
 build
+node-consumer/node_modules
